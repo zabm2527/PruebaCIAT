@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "a4c9dbd8-5e2c-44f8-85d9-b5b1c2e72926",
+		"name": "Prueba Ciat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllZonesDangerous",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/api/getAllZonesDangerous",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"getAllZonesDangerous"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllCattles",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/getAllCattles",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"getAllCattles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
